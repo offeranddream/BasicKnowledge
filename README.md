@@ -1,130 +1,42 @@
 必须会的基本知识点：
 ----
-1. Java语言基础:
+## :coffee: Java语言基础
 
-    1.1 一些基础问题：
+### 一些通用问题
+- [Java作用域private、protected、public和default的区别](https://github.com/offeranddream/BasicKnowledge/blob/master/Java%E5%9F%BA%E7%A1%80/%E4%BD%9C%E7%94%A8%E5%9F%9F.md)
+- 除了instanceof如何判断一个对象是否属于某种类型？
+- this和super分别的使用场景是什么？
+- Java类加载顺序
+- Java基本数据类型和包装类
+- 请简述equals和==的区别
+- 5 == Integer.valueOf(5);是正确的吗？为什么？
+- 请简述接口和父类的异同
 
-        1.1.1 如何判断一个对象是否属于某种类型 insteanceOf
-        1.1.2 this和super
-        1.1.3 加载顺序（初级应该用不到吧）JVM static
-        1.1.4 基本数据类型和包装类
-        1.1.5 equals和==的区别 5 == new Integer(5); 129 == new Integer(129);
-        1.1.6 接口和父类
-        1.1.7 Java中private、protected、public和default的区别
-	|N/A|Inside class|This package|Subclass|External package|
-	|---------|:----:|:----:|:----:|:----:|
-	|public   |true  |true  |true  |true  |
-	|protected|true  |true  |true  |false |
-	|default  |true  |true  |false |false |
-	|private  |true  |false |false |false |
-	```java
-	package demo.test.mainpackage;
+### 字符串处理
+- 如何获取一个字符在字符串中第一次出现的位置？
+- 如何获取一个字符在字符串中最后出现的位置？
+- 如何将字符串反向输出？
+- 简述StringBuilder / StringBuffer的异同和使用场景
+- 执行了String a = "123"; String b = new String("123");这两句代码以后内存中有几个对象？
 
-	import java.util.UUID;
+### 集合类
+- 常用集合类特性介绍？
+- HashMap实现原理和哈希算法
+- ConcurrentHashMap特性和原理（高级/多线程语境必掌握）
+- 循环中如何删除map中的数据
+- 常用集合类API（CRUD + 排序）
 
-	public class Book {
-	    private String id;
-	    protected String price;
-	    String desc;
-	    public String name;
+### 异常
+- 你对异常的理解是什么？
+- 异常和错误有何不同？
+- 项目中你怎么做异常处理
 
-	    public Book() {}
+### 其他特性
+- 如何判断两个对象相等
+- IO/NIO
+- File
 
-	    public void print() {
-		System.out.printf("id: %s, price: %s, desc: %s, name: %s", this.id, this.price, this.desc, this.name);
-	    }
-
-	    public static void main(String[] args) {
-		Book book = new Book();
-		book.id = UUID.randomUUID().toString();
-		book.price = "24.00";
-		book.desc = "This is my book";
-		book.name = "A GLORAL HISTORY";
-		book.print();
-	    }
-	}
-	```
-	```java
-	package demo.test.mainpackage;
-
-	import java.util.UUID;
-
-	public class SamePackage {
-	    public static void main(String[] args) {
-		Book book = new Book();
-		book.id = UUID.randomUUID().toString(); //编译错误
-		book.price = "24.00";
-		book.desc = "This is my book";
-		book.name = "A GLORAL HISTORY";
-		book.print();
-	    }
-	}
-	```
-	```java
-	package demo.test.children;
-
-	import java.util.UUID;
-	import demo.test.mainpackage.Book;
-
-	public class Inherit extends Book {
-
-	    public static void main(String[] args) {
-		Inherit book = new Inherit();
-		book.id = UUID.randomUUID().toString(); // 编译错误
-		book.price = "24.00";
-		book.desc = "This is my book";          // 编译错误
-		book.name = "A GLORAL HISTORY";
-		book.print();
-	    }
-	}
-	```
-	```java
-	package demo.test.otherpackage;
-
-	import java.util.UUID;
-	import demo.test.mainpackage.Book;
-
-	public class DifferentPackage {
-	    public static void main(String[] args) {
-		Book book = new Book();
-		book.id = UUID.randomUUID().toString(); // 编译错误
-		book.price = "24.00";                   // 编译错误
-		book.desc = "This is my book";          // 编译错误
-		book.name = "A GLORAL HISTORY";
-		book.print();
-	    }
-	}
-	```
-	      
-    1.2 字符串处理：
-
-        1.2.1 indexOf
-        1.2.2 subString
-        1.2.3 StringBuilder / StringBuffer
-        1.2.4 常量池 String a = "123"; String b = new String("123");等
-
-    1.3 集合类：
-
-        1.3.1 常用集合类特性介绍
-        1.3.2 HashMap实现原理和哈希算法
-        1.3.3 ConcurrentHashMap特性和原理（高级/多线程语境必掌握）
-        1.3.4 循环中如何删除map中的数据
-        1.3.5 常用集合类API（CRUD + 排序）
-
-    1.4 异常：
-
-        1.4.1 异常种类
-        1.4.2 异常处理
-        1.4.3 异常和错误有何不同
-
-    1.5 其他特性：
-
-        1.5.1 如何判断两个对象相等
-        1.5.2 异常及其处理
-        1.5.3 IO/NIO
-        1.5.4 File
-
-2. Spring：
+## :spring: Java语言基础
 
     2.1 简述IoC和AOP
 

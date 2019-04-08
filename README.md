@@ -13,7 +13,7 @@
 - 请简述接口和父类的异同
 
 ### 字符串处理
-- 如何获取一个字符在字符串中第一次出现的位置？
+- [如何获取一个字符在字符串中第一次出现的位置？](https://github.com/offeranddream/BasicKnowledge/blob/master/%E6%9F%A5%E6%89%BE%E5%AD%97%E7%AC%A6-%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%87%BA%E7%8E%B0.md)
 - 如何获取一个字符在字符串中最后出现的位置？
 - 如何将字符串反向输出？
 - 简述StringBuilder / StringBuffer的异同和使用场景

@@ -3,7 +3,7 @@
 ## :coffee: Java语言基础
 
 ### 一些通用问题
-- [Java作用域private、protected、public和default的区别](https://github.com/offeranddream/BasicKnowledge/blob/master/Java%E5%9F%BA%E7%A1%80/%E4%BD%9C%E7%94%A8%E5%9F%9F.md)
+- [Java作用域private、protected、public和default的区别][1.1]
 - 除了instanceof如何判断一个对象是否属于某种类型？
 - this和super分别的使用场景是什么？
 - Java类加载顺序
@@ -12,12 +12,20 @@
 - 5 == Integer.valueOf(5);是正确的吗？为什么？
 - 请简述接口和父类的异同
 
+[1.1]: https://github.com/offeranddream/BasicKnowledge/blob/master/Java%E5%9F%BA%E7%A1%80/%E4%BD%9C%E7%94%A8%E5%9F%9F.md
+
 ### 字符串处理
-- [如何获取一个字符在字符串中第一次出现的位置？](https://github.com/offeranddream/BasicKnowledge/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86/%E6%9F%A5%E6%89%BE%E5%AD%97%E7%AC%A6-%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%87%BA%E7%8E%B0.md)
-- [如何获取一个字符在字符串中最后出现的位置？](https://github.com/offeranddream/BasicKnowledge/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86/%E6%9F%A5%E6%89%BE%E5%AD%97%E7%AC%A6-%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E5%87%BA%E7%8E%B0.md)
-- [如何将字符串反向输出？](https://github.com/offeranddream/BasicKnowledge/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86/%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
-- [简述StringBuilder / StringBuffer的异同和使用场景](https://github.com/offeranddream/BasicKnowledge/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86/StringBuilder%E4%B8%8EStringBuffer.md)
-- 执行了String a = "123"; String b = new String("123");这两句代码以后内存中有几个对象？
+- [如何获取一个字符在字符串中第一次出现的位置？][2.1]
+- [如何获取一个字符在字符串中最后出现的位置？][2.2]
+- [如何将字符串反向输出？][2.3]
+- [简述StringBuilder / StringBuffer的异同和使用场景][2.4]
+- [执行了String a = "123"; String b = new String("123");这两句代码以后内存中有几个对象？][2.5]
+
+[2.1]: https://github.com/offeranddream/BasicKnowledge/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86/%E6%9F%A5%E6%89%BE%E5%AD%97%E7%AC%A6-%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%87%BA%E7%8E%B0.md
+[2.2]: https://github.com/offeranddream/BasicKnowledge/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86/%E6%9F%A5%E6%89%BE%E5%AD%97%E7%AC%A6-%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E5%87%BA%E7%8E%B0.md
+[2.3]: https://github.com/offeranddream/BasicKnowledge/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86/%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md
+[2.4]: https://github.com/offeranddream/BasicKnowledge/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86/StringBuilder%E4%B8%8EStringBuffer.md
+[2.5]: https://github.com/offeranddream/BasicKnowledge/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86/StringObj.md
 
 ### 集合类
 - 常用集合类特性介绍？

@@ -28,11 +28,13 @@
 [2.5]: https://github.com/offeranddream/BasicKnowledge/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86/StringObj.md
 
 ### 集合类
-- 常用集合类特性介绍？
+- [常用集合类特性介绍？][3.1]
 - HashMap实现原理和哈希算法
 - ConcurrentHashMap特性和原理（高级/多线程语境必掌握）
 - 循环中如何删除map中的数据
 - 常用集合类API（CRUD + 排序）
+
+[3.1]: https://github.com/offeranddream/BasicKnowledge/blob/master/%E9%9B%86%E5%90%88%E7%B1%BB/%E5%B8%B8%E7%94%A8%E9%9B%86%E5%90%88%E7%B1%BB%E7%89%B9%E6%80%A7%E4%BB%8B%E7%BB%8D.md
 
 ### 异常
 - 你对异常的理解是什么？

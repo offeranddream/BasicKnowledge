@@ -5,7 +5,7 @@
 ### 一些通用问题
 - [Java作用域private、protected、public和default的区别][1.1]
 - [除了instanceof如何判断一个对象是否属于某种类型？][1.2]
-- this和super分别的使用场景是什么？
+- [this和super分别的使用场景是什么？][1.3]
 - Java类加载顺序
 - Java基本数据类型和包装类
 - 请简述equals和==的区别
@@ -14,6 +14,7 @@
 
 [1.1]: https://github.com/offeranddream/BasicKnowledge/blob/master/Java%E5%9F%BA%E7%A1%80/%E4%BD%9C%E7%94%A8%E5%9F%9F.md
 [1.2]: https://github.com/offeranddream/BasicKnowledge/blob/master/Java%E5%9F%BA%E7%A1%80%2Finstanceof%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88.md
+[1.3]: https://github.com/offeranddream/BasicKnowledge/blob/master/Java%E5%9F%BA%E7%A1%80/this%E4%B8%8Esuper%E7%9A%84%E7%94%A8%E6%B3%95.md
 
 ### 字符串处理
 - [如何获取一个字符在字符串中第一次出现的位置？][2.1]

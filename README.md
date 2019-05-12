@@ -1,6 +1,12 @@
 必须会的基本知识点：
 ----
-## :coffee: Java语言基础
+## :coffee: Java
+
+### JVM
+- [垃圾回收算法][0.1]
+
+[0.1]: https://github.com/offeranddream/BasicKnowledge/blob/master/JVM/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AE%97%E6%B3%95.md
+
 
 ### 一些通用问题
 - [Java作用域private、protected、public和default的区别][1.1]
